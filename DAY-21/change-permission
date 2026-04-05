@@ -1,0 +1,28 @@
+CHMOD-> to change the files and folders
+
+- user,group ,and others.
+  4 is for users
+  2 is for groups
+  1 is for others
+
+---
+
+-R
+chmod -R is used for
+
+- it is used to changed the permision inside tje folsedrs aolso
+
+---
+
+- chmod u-x,g-rw,o-wx hello
+
+---
+
+## sudo cat /etc/passwd->to stores the user account details.
+
+---
+
+sudo cat /etc/group--> it is used to store the group details
+
+- SUDO USERADD RASHMI.->it is used to add the new user account to the linux system.
+- sudo userdel tejas
