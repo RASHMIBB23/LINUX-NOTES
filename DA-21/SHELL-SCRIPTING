@@ -1,0 +1,3 @@
+HOE TO CHECK THE USERS ARE PRESENT.
+
+sudo cat /etc/shells
