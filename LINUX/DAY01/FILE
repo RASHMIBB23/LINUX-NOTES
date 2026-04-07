@@ -1,0 +1,29 @@
+DAY 1
+6 PHASES OF THE SOFTWARE ENGINERRING 
+*ANALYSIS .
+*DESIGN
+*DEVELOPMENT
+*TESTING
+*DEPLOYMENT
+*MAINTANANCE.
+------------------------------------------------------
+WATERFALL MODEL
+---------------------------
+PLna evrything first then build step by step.
+-----------------------------------------------------------------
+AGILE MODEL
+---------------------------------------------------------------
+
+* Build little by little and improve as u go .
+Waterfall: One-time sequence → Requirements → Design → Build → Test → Release
+Agile: Repeating cycle → Plan → Build → Test → Review → Repeat
+-------------------------------------------------------------
+
+
+
+
+🌊 Waterfall: A step-by-step software development method where each phase is done one after another.
+🔄 Agile: A method where software is built in small parts with continuous improvement.
+⚙️ DevOps: A practice that combines development and operations to deliver software quickly and continuously.
+
+

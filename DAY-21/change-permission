@@ -22,7 +22,69 @@ chmod -R is used for
 
 ---
 
-sudo cat /etc/group--> it is used to store the group details
+## sudo cat /etc/group--> it is used to store the group details
 
 - SUDO USERADD RASHMI.->it is used to add the new user account to the linux system.
 - sudo userdel tejas
+* sudo passwd shetty 
+*will ask for the change paswwd
+* after changing the passwd
+* su shetty
+* this switches the user accounts.
+-----------------------------------------------
+CHANGING THE USER NAME 
+---------------------------------------------------
+* sudo passwd shetty 
+* su shetty 
+--------------------------------------------------
+CREATING THE GROUP
+-------------------------------------------------
+sudo grouadd rashmi
+* to check -> sudo cat /etc/group(it will show the group name )
+* but when u type the sudo cat /etc/passwd it will not show.
+
+
+-----------------------------------------------
+HOW TO ADD THE USER TO THE GROUP
+--------------------------------------------------
+* sudo usermod -aG groupname username
+* sudo usermod -aG instances rashmi
+* sudo usermod -aG instances shetty.
+-----------------------------------------------
+CHANGE THE USERNAME TO DIFFERENT NAME.
+-----------------------------------------------
+*sudo usermod -l newusername oldusername
+
+sudo usermod -l shetty chethan
+
+
+bin/bash is the default (command-line programm) for the user.
+* ------------------------------------------------
+HOW TO CHANGE THE BIN/BASH 
+* sudo chsh -s bin/bash shetty 
+* for install if its not there
+* sudo dnf install util-linux-user
+---------------------------------------------------TO PRINT ONLY THE USERNAME AND PASSWD.
+---------------------------------------------------
+
+* cut -d: -f1 /etc/passwd->to check the list of users.
+* cut -d: -f1 /etc/group-> to see list of groups.
+ --------------------------------------------
+ userownwr and the groupowner
+ sudo chown rashmi filname
+ * there are two types 
+ * change username and groupname
+ sudo chown shetty yellow(which is exixting passwd we have to do ).
+
+ --------------------------------------------------
+ HOW TO CHANGE OWNNERSHIP OF THE USER
+ *   create the user
+ *   sudo chown shetty -R grey 
+
+ * sudo chgrp instances(which u have created) yellow
+ * sudo chown -R shetty:shetty grey
+ --------------------------------------------------
+
+ * getfacl -> is used to display the current ACLs set on files and directories.
+ * setfactl->it is used to give the permission to the specific permission(ACL) for specific users or groups.
+ 

@@ -1,0 +1,10 @@
+XARGS 
+it takes the output of an one file and gives that to input of an another file 
+echo file1 file1 | xargs touch 
+* it will create the file namespace
+
+echo file1 file2  | xargs rm -r 
+rm -r * 
+to remove all files and folders
+---------------------------------------------------------------------$_COOKIE
+TO CHANGE THE FILES AND DIRCTORY PERMISIIONS.
