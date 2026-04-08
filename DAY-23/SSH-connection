@@ -1,0 +1,48 @@
+* get inside the instances  
+* ls -al 
+* cd .ssh
+* ll
+* cat authorized_keys 
+* public file comes
+* pem is a private key 
+* inside the server under .ssh folder there is 
+* inside the pem key there is a private key 
+* we need to use the private key to connect to the server 
+* ssh -i "pem file " user@ipadress
+* inside the server we have the authoized_keys which conraines the the public keys.
+* when u give the pem and the private key the authozed public key botheauthenticated.
+* The private key you provided matches a public key that is authorized on the server.
+-----------------------------------------------------------------------------------------------------------------------------
+
+
+without giving the pem file u need to access the
+* you can provide public and private keys.'* the public key of server 1 go and paste in serbeer 2 
+---------------------------------------------------------------------------------------------------------------------------------
+
+## how to connect to the two servers
+* first create the two seervers
+* private 
+* public keys
+* in london 
+
+
+*  connec t server 1
+* after connecting the sercer 
+* type(sudo hostnamectl set-hostname server1)
+* and then type same for the server2.
+* and then ssh-keygen -t rsa
+* ll
+* inside it will be present of files
+* cat id_rsa.pub
+* it shows the public key of server1
+* cat id_rsa (is the private key).\
+* take the public key of the sever of 1.
+* and then connect to the authorized key for the server2
+* after pasting inside of it.
+* runsystemctl restart sshd
+* now you can connect to the server 2 without giving the pem file.
+* sudo systemctl restart sshd
+* then take the public key of the server1 and paste it in server 1
+* and then paste to the server1
+* and the ssh ec2-user@public-ip-adress of server1
+* 
