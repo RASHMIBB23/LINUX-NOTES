@@ -15,5 +15,12 @@ GREP COMMAND
 *sed 's/patter1/pattern2/g'
 g->globally
 s-> substitute
-* sed '1 s/hi/bye/ newfile'
+* sed -i '1 s/hi/bye/ newfile' to save it in same file 
+
 * sed '3,7 s/hi/hello/ newfile' newfile(from 3,7 how many lines are there in 3,7 that we should do the change) 
+*sed -n '7,$p' newfile(printing the worksd from first to last>)
+---------------------------------------------------------------------------------------------------
+AWK (COMMND)
+* it is used to cut the column of a file colum wise and print.
+* awk '{print $1}' newfile(THIS PRINT THE FIRST COLUMN) 
+* dollar should come front.
