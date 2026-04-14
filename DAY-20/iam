@@ -1,0 +1,18 @@
+📖 Example of a Role
+Role Name: EC2S3AccessRole
+
+Purpose: Allow an EC2 instance to access an S3 bucket.
+
+Who uses it: The EC2 instance (not a human user).
+
+How: The EC2 instance assumes this role when it runs.
+
+📖 Example of a Policy
+Policy Name: S3ReadWritePolicy
+
+Purpose: Define what actions are allowed on the S3 bucket.
+
+Attached to: The EC2S3AccessRole.
+
+JSON Example:
+-------------------------------------------------------
