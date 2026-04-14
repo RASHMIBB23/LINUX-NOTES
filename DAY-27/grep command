@@ -19,8 +19,37 @@ s-> substitute
 
 * sed '3,7 s/hi/hello/ newfile' newfile(from 3,7 how many lines are there in 3,7 that we should do the change) 
 *sed -n '7,$p' newfile(printing the worksd from first to last>)
+SED IS ALOSO USED TO PRINT THE SPECIFIC LINE
 ---------------------------------------------------------------------------------------------------
 AWK (COMMND)
 * it is used to cut the column of a file colum wise and print.
 * awk '{print $1}' newfile(THIS PRINT THE FIRST COLUMN) 
 * dollar should come front.
+*  awk '{print $NF}' newfile (this prints the last file).
+number of fields in the current line.(gives the number of files in the current line).
+*  awk '{print $(NF-1)}' newfile(TO PRINT THE LAST LINE).
+-------------------------------------------------------------------------------------
+Filesystem        Size  Used Avail Use% Mounted on
+devtmpfs          4.0M     0  4.0M   0% /dev
+tmpfs             459M     0  459M   0% /dev/shm
+tmpfs             184M  444K  183M   1% /run
+/dev/nvme0n1p1    8.0G  1.6G  6.4G  20% /
+tmpfs             459M     0  459M   0% /tmp
+/dev/nvme0n1p128   10M  1.3M  8.7M  13% /boot/efi
+tmpfs              92M     0   92M   0% /run/user/1000
+
+
+in this give 20%
+grep "20%" oldestfile | awk '{print $(NF-1)}(one method)
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+* FIND COMMAND: it is used to find the location of the files and directories.
+*find . -name "*.py"(THIS IS THE COMMAND).
+* find . -name "*.sh"
+* find . -type f -name "*.sh"
+* find . -name  "*.sh"
+* find . -type d -name "*.sh"
+* find . -name "anjana"
+*  
+
