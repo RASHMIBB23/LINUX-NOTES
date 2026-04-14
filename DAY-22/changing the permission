@@ -1,2 +1,14 @@
-sudo chmod 
-sudo chown 
+sudo adduser anjana
+sudo groupadd devteam
+
+-------------------------------------------------
+HOW TO CHECK THE USER AND THE GROPU NAME :
+* sudo cat /etc/passwd
+* sudo cat /etc/group 
+-----------------------------------------------------
+
+
+
+HOW TO ADD THE USER TO THE GROUP:
+* sudo usermod -ag groupmane username 
+* * inside the checking of the group the useradding i spresent  
