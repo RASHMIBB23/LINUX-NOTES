@@ -51,5 +51,7 @@ grep "20%" oldestfile | awk '{print $(NF-1)}(one method)
 * find . -name  "*.sh"
 * find . -type d -name "*.sh"
 * find . -name "anjana"
-*  
-
+*  find  . -type f ! -empty(FINDING THE THING WHICH I EMPTY)
+*  find . -type f -mtime -60
+* find . -type f -mtime -60(CREATED LAST 60 DAYS).
+* find . -type f -size -1k
