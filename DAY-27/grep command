@@ -1,4 +1,19 @@
 GREP COMMAND 
 * it is used to search pattern/string in a file
 * to check the wheather the error or not .
-* 
+* grep "devan" onefile
+* l -> shows the file name 
+* -h -> shows the word without the file name 
+* -n -> shows the line along with the line numbers.
+* -c -> count the number of the line which is present over there .
+* -v -> print all the files instaed of the given word.
+* grep "o$" * to find the starting pattern 
+* grep "^i" to find the ending pattern.
+--------------------------------------------------
+*SED COMMAND -> IT is USED TO REPLACE A STRING IN A FILE WITHOUT OPENING IT AND OUTPT IS DISPLAYED IN THE CONSOLE.
+* sed 's/black/red/g' newfile
+*sed 's/patter1/pattern2/g'
+g->globally
+s-> substitute
+* sed '1 s/hi/bye/ newfile'
+* sed '3,7 s/hi/hello/ newfile' newfile(from 3,7 how many lines are there in 3,7 that we should do the change) 
