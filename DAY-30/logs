@@ -3,5 +3,11 @@
 cd /var/
 
 - it give sthe information about the system and processor.
-- /var/log/-> it is teh default to log in
--
+- /var/log/ cat lastlog-> it is teh default to log in
+- /var/log/cd btmp-> folied login attempts.
+- wtmp-> who temporary
+- btmp-> bad temporary
+- sudo apt update
+  sudo apt install apache2 -y
+- sudo bash
+- sudo systemctl start httpd
