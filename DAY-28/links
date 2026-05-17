@@ -1,0 +1,31 @@
+HARD LINK AND SOFT LINK
+
+- instead of tyoing all the directories
+- we can write the hard link and soft link
+- softlink will not work if you dlete the originnal file
+- if you creat the hard link the link gets link with the meory
+- touch jan/feb/march/april/may/linkfile
+- ln -s jan/feb/march/april/may/linkfile softlink
+- rm jan/feb/march/april/may/june/july softlink
+
+---
+
+CREATION OF HARDLINK FILE
+
+- touch jan/feb/march june july
+- ln -s jan/feb/march/april/may/linkfile softlink
+
+- ls -i hardlink
+- 76148
+- for every files and dsirectries there is i node.
+
+---
+
+- wget download image adrss(IT IS USED DIRECTLY DOWNLOAD THE FILE INSIDE THE SERVER WITHPIT NEEDING TEH BROWSER)
+- paste it
+- at last what name is tehre it will come thats ot
+
+---
+
+- The curl command is a powerful tool used to transfer data to or from a server using a wide variety of protocols. It’s especially popular for testing and automating web requests.
+-
