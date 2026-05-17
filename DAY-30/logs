@@ -1,2 +1,7 @@
 - it gives the information about the application,server,process.
+
+cd /var/
+
+- it give sthe information about the system and processor.
+- /var/log/-> it is teh default to log in
 -
