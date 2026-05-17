@@ -1,0 +1,21 @@
+default file system hirachey 
+* /bin->esstetial command binaruies
+* ls | wc (810 commands are there)
+* cd bin/
+* cd touch
+* it willc ome all
+* in binary is where binary executabel files are stored
+* it stored the execuatbel programms that the system and useres need.
+-----------------------------------------------------
+
+* boot -> somebooting devices
+* cd etc/ -> it os the system directory taht holds teh configuration files on the linux and installed applications.
+* lib->pre complied library
+* mnt-> it is for adding the external filesystems or or teh network share 
+* opt/-> to add teh additional operating systems.that i s not pasrt of the core operating system
+* sudo bash -> to start the bash session with the root previliges
+* /sbin-> system administartion binaries.(USED FOR THE STORING OF THE MANAGING AND MANTAINING OF TEH SYSTEMS.)
+* /tnp-> move the folders into the temp file and it is short-live after the deleted.
+* /usr -> it holds the user-relate programs and date  /so most of the software utilies use day by day 
+* /var-> files to store the variable data - files that changes frequently while the sytem is running.
+* 
