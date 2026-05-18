@@ -1,0 +1,27 @@
+In simple words: iptables is the built‑in Linux firewall tool that controls network traffic by applying rules to decide whether packets are allowed, blocked, or modified.
+
+-
+
+# Block traffic from a specific IP
+
+sudo iptables -A INPUT -s 192.168.1.100 -j DROP
+
+# Allow HTTP traffic
+
+sudo iptables -A INPUT -p tcp --dport 80 -j ACCEPT
+
+- sudo → run the command with administrator privileges.
+
+iptables → Linux firewall tool.
+
+-A → append a new rule to the chain.
+
+INPUT chain → handles packets coming into your system.
+
+-s 192.168.1.100 → match packets from source IP 192.168.1.100.
+
+-j DROP → action is to silently discard those packets.
+This rule blocks all incoming traffic from the IP address
+
+- to delete a rule
+- sudo iptables -D INPUT 1

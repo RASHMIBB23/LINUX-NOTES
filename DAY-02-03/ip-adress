@@ -1,0 +1,17 @@
+if config (shows the private ip asress)
+
+- nslookup www.google.com(shows the current ip adress)
+- netstat -a shows all active connections and listening ports on your system — basically every socket, whether it’s established, waiting, or listening.
+  netstat → Displays network statistics.
+
+Option -s → Prints protocol statistics.
+
+It breaks down traffic by protocol (TCP, UDP, ICMP, IP) and shows:
+
+Packets received/sent
+
+Errors (like checksum errors, retransmissions)
+
+Dropped packets
+
+Connection resets or failures
