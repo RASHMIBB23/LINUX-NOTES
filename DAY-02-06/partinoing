@@ -5,4 +5,20 @@ df -h
 * in -use is the attch volume 
 
 
-* 
+* sudo fdisk /dev/xvdb
+( n -> creation of new partion )
+* p -> primary parition 
+*  sudo fdisk /dev/nvme1n(PARTION OF THE DISK )
+* this shows the just enter 
+* enter we have to do 
+* sudo mount /dev/nvme1n1p1 tells Linux to attach the partition /dev/nvme1n1p1 (an NVMe SSD partition) to the filesystem.
+
+
+STEP :01 
+* sudo mkfs.ext4 /dev/nvme1n1p2
+
+STEP 02
+* sudo mount /dev/nvme1n1p2 /newdir
+
+
+* first we have to make the partio as ext4 and convert and mount it on the mkdir 
