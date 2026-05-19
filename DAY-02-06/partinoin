@@ -1,0 +1,8 @@
+df -h 
+* tmps (temporaray file system used for other systems) 
+* lsblk for the partion commnd 
+* when u attach the volume go to teh same server and attach it 
+* in -use is the attch volume 
+
+
+* 
