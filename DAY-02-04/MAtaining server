@@ -1,1 +1,7 @@
 timedatectl
+ timedatectl list-timezones
+ HOW TO ONE THE NTP SYNCHRONIZATION
+
+ * TIMEDATECTL SET-NTP TRUE
+ =----------------------------------------------------------------------
+ * 

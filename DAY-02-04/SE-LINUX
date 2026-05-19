@@ -1,0 +1,25 @@
+-
+- ll
+- sudo apt install nginx -y
+
+# Step 1 - Stop Apache completely
+
+sudo systemctl stop apache2
+
+# Step 2 - Disable Apache (prevent auto-start)
+
+sudo systemctl disable apache2
+
+# Step 3 - Start NGINX
+
+sudo systemctl start nginx
+
+# Step 4 - Check NGINX is running
+
+sudo systemctl status nginx
+
+---
+
+usr/share/nginx/html(cd)
+
+- basically u are accessing from browser
